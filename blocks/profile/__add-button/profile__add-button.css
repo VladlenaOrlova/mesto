@@ -1,0 +1,19 @@
+.profile__add-button {
+    width: 150px;
+    height: 50px;
+    border: 2px solid #FFFFFF;
+    padding: 0;
+    background: transparent url(../../../images/krest.svg) 50%/22px no-repeat;
+    cursor: pointer;
+}
+
+.profile__add-button:hover {
+    opacity: 60%;
+    transition: 0.4s;
+}
+
+@media screen and (max-width: 880px) {
+    .profile__add-button {
+        width: 282px;
+    }
+}

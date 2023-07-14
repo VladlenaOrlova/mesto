@@ -1,0 +1,19 @@
+.element__add-button {
+    width: 22px;
+    height: 19px;
+    background-color: transparent;
+    background-image: url(../../../images/Group.svg);
+    background-size: cover;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+
+.element__add-button:hover {
+    opacity: 50%;
+    transition: 0.4s;
+}
+
+.element__add-button:focus {
+    background-image: url(../../../images/Union.black.svg);
+}
