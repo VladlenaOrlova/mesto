@@ -10,4 +10,4 @@ __Используемые технологии:__
 * Методология БЭМ
 * JavaScript
 
-Ссылка на GitHub Pages: 
+Ссылка на GitHub Pages: https://vladlenaorlova.github.io/mesto/
