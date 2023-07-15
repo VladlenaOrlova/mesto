@@ -12,6 +12,7 @@
     font-size: 18px;
     line-height: 21.78px;
     cursor: pointer;
+    border-radius: 2px;
 }
 
 .popup__save-button:hover {

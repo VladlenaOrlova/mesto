@@ -5,6 +5,7 @@
     padding: 0;
     background: transparent url(../../../images/krest.svg) 50%/22px no-repeat;
     cursor: pointer;
+    border-radius: 2px;
 }
 
 .profile__add-button:hover {
