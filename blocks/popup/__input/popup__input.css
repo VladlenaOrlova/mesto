@@ -1,10 +1,15 @@
 .popup__input {
     width: 358px;
-    height: 27px;
+    height: 14px;
     border: 0;
     border-bottom: 1px solid #bcbcc4;
     padding: 0 0 13px 0;
     margin-bottom: 30px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.94px;
 }
 
 .popup__input:last-child {
