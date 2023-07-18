@@ -22,15 +22,13 @@ popupOpenButton.addEventListener('click', function() {
 // Обработчик «отправки» формы, хотя пока она никуда отправляться не будет
 function handleFormSubmit (evt) {
     evt.preventDefault(); 
-    nameInput.value;// Получите значение полей jobInput и nameInput из свойства value
-    jobInput.value;
     nameProfile.textContent = nameInput.value; // Выберите элементы, куда должны быть вставлены значения полей, вставьте новые значения с помощью textContent
     jobProfile.textContent = jobInput.value;
 
-    popupCloseButton.addEventListener('click', function() {
-        popup.classList.remove('popup_opened');
-    });
+popup.classList.remove('popup_opened');
 }
 
-// Прикрепляем обработчик к форме: он будет следить за событием “submit” - «отправка»
-closeButton.addEventListener('submit', handleFormSubmit);
+popupCloseButton.addEventListener('click', function() {
+});
+
+closeButton.addEventListener(handleFormSubmit);
