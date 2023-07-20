@@ -4,7 +4,7 @@ const popupCloseButton = popup.querySelector('.popup__close');
 
 // Находим форму в DOM
 let formElement = document.querySelector('.popup__container');
-let closeButton = document.querySelector('.popup__save-button');
+let closeButton = document.querySelector('.popup__info');
 
 // Находим поля формы в DOM
 let nameProfile = document.querySelector('.profile__title');
@@ -24,11 +24,7 @@ function handleFormSubmit (evt) {
     evt.preventDefault(); 
     nameProfile.textContent = nameInput.value; // Выберите элементы, куда должны быть вставлены значения полей, вставьте новые значения с помощью textContent
     jobProfile.textContent = jobInput.value;
-
-popup.classList.remove('popup_opened');
+    popup.classList.remove('popup_opened');
 }
 
-popupCloseButton.addEventListener('click', function() {
-});
-
-closeButton.addEventListener(handleFormSubmit);
+closeButton.addEventListener('submit', handleFormSubmit);
