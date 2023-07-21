@@ -27,4 +27,8 @@ function handleFormSubmit (evt) {
     popup.classList.remove('popup_opened');
 }
 
+popupCloseButton.addEventListener('click', function() {
+    popup.classList.remove('popup_opened');
+});
+
 closeButton.addEventListener('submit', handleFormSubmit);
